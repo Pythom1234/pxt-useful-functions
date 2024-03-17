@@ -6,7 +6,8 @@
         "microphone": "*"
     },
     "files": [
-        "README.md"
+        "README.md",
+        "main.ts"
     ],
     "testFiles": [],
     "targetVersions": {
@@ -16,5 +17,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj"
 }
