@@ -6,7 +6,6 @@
         "microphone": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
         "main.py"
     ],
