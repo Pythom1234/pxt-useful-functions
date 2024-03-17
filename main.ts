@@ -7,5 +7,5 @@ namespace useful {
         a()
     }
     //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=98
-    export function commentBlocks(c: string, a: Action, b: Action) {}
+    export function commentBlocks(c: string, a: Action) {}
 }
