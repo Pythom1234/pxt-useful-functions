@@ -6,8 +6,7 @@
         "microphone": "*"
     },
     "files": [
-        "README.md",
-        "main.py"
+        "README.md"
     ],
     "testFiles": [],
     "targetVersions": {
