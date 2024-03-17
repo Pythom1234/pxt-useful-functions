@@ -2,7 +2,7 @@
 namespace useful {
     //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=100
     export function comment(c: string) { }
-    //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=100
+    //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=99 handlerStatement
     export function commentSection(c: string, a: Action) {
         a()
     }
