@@ -6,6 +6,12 @@ namespace useful {
     export function commentSection(c: string, a: Action) {
         a()
     }
-    //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=98 blockGap=100
-    export function commentBlocks(c: string, a: Action) {}
+    //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=98
+    export function commentBlocks(c: string, a: Action) { }
+}
+namespace control {
+    //% block="in background" block.loc.cs="na pozadí" weight=99 handlerStatement
+    function inBackgroundInline(a: Action) {
+        control.inBackground(a)
+    }
 }
