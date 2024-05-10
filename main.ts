@@ -3,7 +3,7 @@ namespace useful {
     //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=100
     export function comment(c: string) { }
     //% block="comment $c||(run code $run)" block.loc.cs="komentář $c||(spouštět kód $run)" color=#707070 weight=99 handlerStatement run.shadow="toggleYesNo" expandableArgumentMode="enabled"
-    export function commentSection(c: string, a: Action, run: boolean = true) {
+    export function commentSection(c: string, run: boolean = true, a: Action) {
         if (run) {
             a()
         }
