@@ -8,7 +8,7 @@ namespace useful {
     }
     //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=98
     export function commentBlocks(c: string, a: Action) { }
-    //% block="in background" block.loc.cs="na pozadí" weight=97 handlerStatement
+    //% block="run in background" block.loc.cs="spusť na pozadí" weight=97 handlerStatement color=#000000
     export function inBackground(a: Action) {
         control.inBackground(a)
     }
