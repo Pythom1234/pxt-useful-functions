@@ -6,6 +6,6 @@ namespace useful {
     export function commentSection(c: string, a: Action) {
         a()
     }
-    //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=98
+    //% block="comment $c" block.loc.cs="komentář $c" color=#707070 weight=98 blockGap=100
     export function commentBlocks(c: string, a: Action) {}
 }
